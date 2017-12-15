@@ -1,0 +1,43 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;color:#333;}
+header{width:100%;height:.44rem;position:relative;}
+header img:first-child{height:0.19rem;position:absolute;top: 0.15rem;left: 0.07rem;}
+header img:nth-child(2){height:0.19rem;position:absolute;top: 0.15rem;right: 0.12rem;}
+header img:nth-child(3){height:0.19rem;position:absolute;top: 0.15rem;right:0.5rem;}
+header p{text-align: center;font-size: 0.32rem;line-height: 0.44rem;color:#666;}
+#banner{height:1.1rem;width:100%;}
+#banner img{width:100%;height:100%;}
+.main-list{width:100%;padding-bottom:0.2rem;}
+.main-list1 {display: flex;justify-content: space-around;font-size:0.13rem;
+    padding-top:0.21rem;}
+.main-list1 li{text-align: center;}
+.main-list1 li a{display: inline-block;}
+.main-list1 li img{width:0.35rem;height:0.35rem;}
+.main-list1 li p{font-size:.20rem;color:#666;}
+.main-list2{display: flex;justify-content: space-around;font-size: 0.13rem;
+    padding-top: 0.21rem;}
+.main-list2 li{width:25%;text-align: center;}
+.main-list2 li a{display: inline-block;}
+.main-list2 li img{width:0.35rem;height:0.35rem;}
+.main-list2 li p{font-size:0.20rem;color:#666;}
+.content1{width:100%;border-top:0.1rem solid #eeeaea;}
+.main-content1{display: flex;justify-content: space-around;margin-bottom:0.2rem;}
+.content1 h3{font-size:0.20rem;color:#40a3f8;padding:0.2rem 0 0.1rem 0.2rem;}
+.content1-left{width:50%;}
+.content1-left li a{float:left;display:block;line-height:0.78rem;padding:0 0 0.1rem 0.2rem;}
+.content1-left li img{width:1.38rem;height:0.78rem;}
+.content1-left li p{float:left;font-size:0.12rem;color:#333;padding-left:0.2rem;}
+.content1-left li p>a{line-height:0.2rem;padding:0;margin-right:0.1rem;}
+.content1-left li p>span{float:left;color:#ff6600;padding:2px 0.1rem 0 0;}
+.main-link{width:100%;}
+.main-link h4{font-size:0.34rem;color:#333;text-align: center;padding-top:0.25rem;}
+.main-link1{display: flex;justify-content: center;}
+.main-link1 img{width:0.62rem;height:0.62rem;margin:0.24rem;}
+.main-bottom{width:100%;background:#eeeaea;}
+.main-bottom ul{width:100%;display: flex;justify-content:space-around;}
+.main-bottom ul li{text-align: center;}
+.main-bottom ul li p{font-size:0.24rem;color:#333;}
+.main-bottom>p{font-size:0.12rem;color:#999;line-height:0.3rem;text-align: center;padding:0.30rem 0 0.1rem;}
+footer{width:100%;height:0.75rem;background:url(../images/zg_kj34.jpg) no-repeat center top;background-size:100% 100%;}
